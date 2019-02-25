@@ -5,8 +5,13 @@
     <title>Title</title>
 </head>
 <body>
+<!--USING A PROPERTY VARIABLE ON A TEMPLATE-->
 <h2>Hello World</h2>
 <p th:text="${myvar}"></p>
 <h4 th:text="${jvar}"></h4>
+<!--static property variable-->
+<p th:text="#{static.message}"></p>
+<p th:text="#{myval.name}"></p>
+<h4 th:text="#{newval.message}"></h4>
 </body>
 </html>
